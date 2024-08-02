@@ -1,17 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Aluno Noite\\source\\repos\\CursoC#\\",
+  "WorkspaceRootPath": "C:\\Users\\Aluno Noite\\Desktop\\Curso-CSharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{51276753-C621-4781-8827-00826D537E0C}|CursoC#.csproj|c:\\users\\aluno noite\\source\\repos\\cursoc#\\tiposprimitivos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51276753-C621-4781-8827-00826D537E0C}|CursoC#.csproj|solutionrelative:tiposprimitivos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51276753-C621-4781-8827-00826D537E0C}|CursoC#.csproj|c:\\users\\aluno noite\\desktop\\curso-csharp\\exerciciostipoprimitivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51276753-C621-4781-8827-00826D537E0C}|CursoC#.csproj|solutionrelative:exerciciostipoprimitivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51276753-C621-4781-8827-00826D537E0C}|CursoC#.csproj|c:\\users\\aluno noite\\source\\repos\\cursoc#\\teste\\teste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51276753-C621-4781-8827-00826D537E0C}|CursoC#.csproj|solutionrelative:teste\\teste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51276753-C621-4781-8827-00826D537E0C}|CursoC#.csproj|c:\\users\\aluno noite\\source\\repos\\cursoc#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{51276753-C621-4781-8827-00826D537E0C}|CursoC#.csproj|c:\\users\\aluno noite\\desktop\\curso-csharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51276753-C621-4781-8827-00826D537E0C}|CursoC#.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,45 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TiposPrimitivos.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno Noite\\source\\repos\\CursoC#\\TiposPrimitivos.cs",
-              "RelativeDocumentMoniker": "TiposPrimitivos.cs",
-              "ToolTip": "C:\\Users\\Aluno Noite\\source\\repos\\CursoC#\\TiposPrimitivos.cs",
-              "RelativeToolTip": "TiposPrimitivos.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T19:24:53.544Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno Noite\\source\\repos\\CursoC#\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Aluno Noite\\source\\repos\\CursoC#\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T18:45:00.873Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Teste.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno Noite\\source\\repos\\CursoC#\\Teste\\Teste.cs",
-              "RelativeDocumentMoniker": "Teste\\Teste.cs",
-              "ToolTip": "C:\\Users\\Aluno Noite\\source\\repos\\CursoC#\\Teste\\Teste.cs",
-              "RelativeToolTip": "Teste\\Teste.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno Noite\\Desktop\\Curso-CSharp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Aluno Noite\\Desktop\\Curso-CSharp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T18:21:02.694Z",
+              "WhenOpened": "2024-08-02T20:01:36.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExerciciosTipoPrimitivo.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno Noite\\Desktop\\Curso-CSharp\\ExerciciosTipoPrimitivo.cs",
+              "RelativeDocumentMoniker": "ExerciciosTipoPrimitivo.cs",
+              "ToolTip": "C:\\Users\\Aluno Noite\\Desktop\\Curso-CSharp\\ExerciciosTipoPrimitivo.cs",
+              "RelativeToolTip": "ExerciciosTipoPrimitivo.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T18:44:02.79Z",
               "EditorCaption": ""
             }
           ]

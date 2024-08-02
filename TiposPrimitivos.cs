@@ -4,48 +4,57 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CursoC_
+namespace Curso_C
 {
-    public static class TiposPrimitivos
+    public class TipoPrimitivo
     {
-
         public static void ImprimirTipos()
         {
-            //Tipo inteiro de 8 bits com sinal 
-            sbyte SByte = -128; //Valores variam de -128 a 127 
-            Console.WriteLine($"sbyte: {SByte}");
 
-            //Tipo inteiro de 16 bits com sinal 
-            byte variavelByte = 255; //Valores variam de 0 a 255 
-            Console.WriteLine($"byte: {variavelByte}");
+            sbyte SByte = -128;
+            Console.WriteLine($"byte:{SByte}");
 
-            //Tipo inteiro de 16 bits com sinal 
-            short variavelShort = -32768; //Valores variam de -32768 a 32768 
-            Console.WriteLine($"short: {variavelShort}");
+            byte variavelByte = 255;
+            Console.WriteLine($"byte:{variavelByte}");
 
-            //Tipo inteiro de 16 bits com sinal 
-            ushort variavelUShort = 65535; //Valores variam de 0 a 65535 
-            Console.WriteLine($"Ushort: {variavelUShort}");
+            short variavelshort = -32768;
+            Console.WriteLine($"byte:{variavelshort}");
 
-            //Tipo inteiro de 32 bits com sinal 
-            sbyte variavelInit = ; //Valores variam de 0 a 255 
-            Console.WriteLine($"init: {variavelInit}");
+            ushort variavelUShort = 65535;
+            Console.WriteLine($"byte:{variavelUShort}");
 
-            //Tipo inteiro de 64 bits com sinal 
-            long variavelLong = -922337203654775888; //Valores variam de -922337203654775888 
-            Console.WriteLine($"long: {variavelLong}");
+            int variavelint = -214758364;
+            Console.WriteLine($"int:{variavelint}");
 
-            //Tipo inteiro de 64 bits com sinal 
-            ulong variavelUlong = 18446744973709551615; //Valores variam de 0 a 18446744973709551615
-            Console.WriteLine($"ulong: {variavelUlong}");
+            uint variavelUInt = 4294966111;
+            Console.WriteLine($"uint:{variavelUInt}");
 
-            //Tipo de ponto flutuante de 32 bits 
-            ulong variavelFloat = 3.14f; // 
-            Console.WriteLine($"float: {variavelFloat}");
+            long variavelLong = -9222337026854775808;
+            Console.WriteLine($"long:{variavelLong}");
 
-            //Tipo de ponto flutuante de 64 bits  
-            ulong variavelDouble = 3.141592653589793; //
-            Console.WriteLine($"double : {variavelDouble}");
+            ulong variavelULong = 18446744073709551615;
+            Console.WriteLine($"ulong:{variavelULong}");
+
+            float variavelFloat = 3.14f;
+            Console.WriteLine($"float:{variavelFloat}");
+
+            double variavelDouble = 3.141592653589783;
+            Console.WriteLine($"double:{variavelDouble}");
+
+            decimal variavelDecimal = 7922816251426543726245M;
+            Console.WriteLine($"decimal:{variavelDecimal}");
+
+            char variavelChar = 'A';
+            Console.WriteLine($"char:{variavelChar}");
+
+            bool variavelBool = true;
+            Console.WriteLine($"bool:{variavelBool}");
+
+            object variavelObject = null;
+            Console.WriteLine($"object:{variavelObject}");
+
+            string variavelString = "Olá, Mundo!";
+            Console.WriteLine($"string:{variavelString}");
         }
 
     }
