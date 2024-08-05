@@ -14,7 +14,7 @@ namespace CursoC_
             Console.WriteLine("Digite o seu nome:");
             nome = Console.ReadLine();
 
-            Console.WriteLine($"O : {nome}");
+            Console.WriteLine($"O nome e: {nome}");
         }
     }
 }

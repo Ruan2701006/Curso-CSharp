@@ -1,3 +1,8 @@
 ﻿using CursoC_;
 //Lerarmazenar.ImprimirTipos
-ExerciciosTipoPrimitivo.Lerarmazenar();
+//ExerciciosTipoPrimitivo.LerArmazenar();
+//ExerciciosTipoPrimitivo.NomeIdade();
+//ExerciciosTipoPrimitivo.NomeCidade();
+//ExerciciosTipoPrimitivo.NomeusuarioMaiuscula();
+//ExerciciosTipoPrimitivo.NomeusuarioMinuscula();
+ExerciciosTipoPrimitivo.UnicaLinha();

@@ -12,7 +12,7 @@ namespace CursoC_
         //Modifique o método LerArmazenar para armazenar o sobrenome do usuário e
         //exibi-lo junto com o nome:
 
-        public static void Lerarmazenar()
+        /*public static void LerArmazenar()
         {
             string? nome;
             string? sobrenome;
@@ -21,12 +21,12 @@ namespace CursoC_
             Console.WriteLine("Digite o seu sobrenome:");
             sobrenome = Console.ReadLine();
 
-            Console.WriteLine($"O nome e: {nome} {sobrenome}");
+            Console.WriteLine($"O nome e: {nome} e {sobrenome}");
         }
 
         //Peça ao usuário para inserir a idade e exiba o nome e a idade:
 
-        public static void Nomeidade()
+        public static void NomeIdade()
         {
             string? idade;
             string? nome;
@@ -41,13 +41,13 @@ namespace CursoC_
 
         //Peça ao usuário para inserir a cidade e exiba o nome e a cidade:
 
-        public static void nomecidade()
+        public static void NomeCidade()
         {
             string? nome;
             string? cidade;
             Console.WriteLine("Digite o nome:");
             nome = Console.ReadLine();
-            Console.WriteLine("Digite a cidade");
+            Console.WriteLine("Digite a cidade:");
             cidade = Console.ReadLine();
 
             Console.WriteLine($"O nome e: {nome} e {cidade}");
@@ -55,40 +55,37 @@ namespace CursoC_
 
         //Armazene o nome do usuário em maiúsculas e exiba-o:
 
-        public static void nomeusuariomaiuscula()
+        public static void NomeusuarioMaiuscula()
         {
             string? nome;
             Console.WriteLine("Digite o nome:");
-            nome = Console.ReadLine();
+            nome = Console.ReadLine().ToUpper();
             Console.WriteLine($"O nome e: {nome}");
         }
 
         //Armazene o nome do usuário em minúsculas e exiba-o:
 
-        public static void nomeusuariominuscula ()
+        public static void NomeusuarioMinuscula()
         {
             string? nome;
-            string? cidade;
             Console.WriteLine("Digite o nome:");
-            nome = Console.ReadLine();
-            Console.WriteLine("Digite a cidade");
-            cidade = Console.ReadLine();
+            nome = Console.ReadLine().ToLower();
+            Console.WriteLine($"O nome e: {nome}");
 
-            Console.WriteLine($"O nome e: {nome} e {cidade}");
-        }
+        }*/
 
         //Peça ao usuário para inserir seu nome e idade, depois exiba ambos em uma única linha:
 
-        public static void unicalinha()
+        public static void UnicaLinha()
         {
             string? nome;
-            string? cidade;
+            string? idade;
             Console.WriteLine("Digite o nome:");
             nome = Console.ReadLine();
-            Console.WriteLine("Digite a cidade");
-            cidade = Console.ReadLine();
+            Console.WriteLine("Digite a idade:");
+            nome = Console.ReadLine();
 
-            Console.WriteLine($"O nome e: {nome} e {cidade}");
+            Console.WriteLine($"O nome e: {nome} e {idade}");
         }
     }
 }
